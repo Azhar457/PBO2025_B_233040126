@@ -1,9 +1,7 @@
 package Pertemuan10;
 
-abstract class Hewan {
-	
-	abstract void suara();
-	
-	abstract void makan();
-	
+public abstract class Hewan {
+	public abstract void suara();
+
+	public abstract void makan();
 }

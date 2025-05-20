@@ -1,5 +1,15 @@
 package Pertemuan10;
 
-public class Flyable {
+public interface Flyable {
+    void terbang();
 
+    void mendarat();
+
+    void terbangTinggi();
+
+    void terbangRendah();
+
+    void terbangCepat();
+
+    void terbangLambat();
 }
