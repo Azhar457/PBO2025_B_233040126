@@ -9,10 +9,6 @@ public class Burung extends Hewan implements Flyable {
 		this.warna = warna;
 	}
 
-	public Burung() {
-        //TODO Auto-generated constructor stub
-    }
-
     @Override
 	public void suara() {
 		System.out.println("Wut, Wut");
